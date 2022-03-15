@@ -1,0 +1,102 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+.contenedor {
+  width: 1000px;
+}
+aside{
+  background:#c7acb4;
+  box-shadow: 2px 2px 40px 1px #647087 inset;
+  float: left;
+  width: 33.3%;
+  
+}
+aside *{
+ 
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  
+}
+img {
+  text-align: center;
+  border-radius: 40%;
+  width: 200px;
+}
+
+meter{
+  display:block;
+  width:80%;
+ 
+  
+}
+
+.intereses{
+  text-align: center;
+}
+
+main {
+  float: right;
+  width: 66.6%;
+  height: 100%;
+  font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.grande{
+  background:#b8cdd6;
+  box-shadow: 2px 2px 40px 1px #647087 inset;
+  margin: 0;
+  padding: 16%;
+}
+.grande h2{
+  color:whitesmoke;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  border-top:2px solid whitesmoke;
+  letter-spacing:10px;
+}
+h1 {
+  margin: 0;
+  text-align: center;
+  letter-spacing:5px;
+  padding: 15px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+h2{
+  text-align: center;
+  font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.informacion-personal{
+  background: whitesmoke;
+  margin-top:-20px;
+  padding: 34px;
+}
+.academia{
+ background:whitesmoke;
+ margin-top:-20px;
+ padding: 38px;
+}
+.experiencia-profesional{
+  background: whitesmoke;
+  margin-top:-10px;
+  padding: 34px;
+  
+}
+.campo-de-tarea{
+ background: whitesmoke;
+ margin-top:-5px;
+ padding: 9px; 
+text-align: center;
+font-weight:bold;
+}
+
+table {
+  border: 2px solid whitesmoke;
+  margin: 8px;
+  border-collapse: collapse;
+}
+table th, td{  
+  border: 2px solid whitesmoke;
+  padding: 5px;
+}
+
+li{
+  list-style-type: square;
+}
